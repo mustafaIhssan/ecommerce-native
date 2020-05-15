@@ -1,15 +1,12 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 import { TouchableWithoutFeedback } from '@ui-kitten/components/devsupport'
-import { Button, Icon, Input, Text } from '@ui-kitten/components'
+import { Button, Input, Text } from '@ui-kitten/components'
 
 import { KeyboardAvoidingView } from '../../Components/KeyboardAvoidingView'
 import { ImageOverlay } from '../../Components/ImageOverlay'
 import imageBackground from './assets/image-background.jpg'
-
-function CustomIcon({ name }) {
-  return <Icon style={styles.icon} fill="#8F9BB3" name={name} />
-}
+import CustomIcon from '../../Components/CustomIcon'
 
 function Login(props) {
   const [email, setEmail] = React.useState()
