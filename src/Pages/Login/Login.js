@@ -1,14 +1,13 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
+import { TouchableWithoutFeedback } from '@ui-kitten/components/devsupport'
 import { Button, Icon, Input, Text } from '@ui-kitten/components'
 
 import { KeyboardAvoidingView } from '../../Components/KeyboardAvoidingView'
 import { ImageOverlay } from '../../Components/ImageOverlay'
 import imageBackground from './assets/image-background.jpg'
-import { TouchableWithoutFeedback } from '@ui-kitten/components/devsupport'
 
 function CustomIcon({ name }) {
-  console.log(name)
   return <Icon style={styles.icon} fill="#8F9BB3" name={name} />
 }
 
