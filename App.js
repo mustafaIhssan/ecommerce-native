@@ -5,12 +5,13 @@ import * as eva from '@eva-design/eva'
 import Login from './src/Pages/Login/Login'
 import ProductDetails from './src/Pages/Product/Details/ProductDetails'
 import ProductsList from './src/Pages/Product/List/ProductsList'
+import Cart from './src/Pages/Cart/Cart'
 
 export default () => (
   <>
     <IconRegistry icons={[EvaIconsPack]} />
     <ApplicationProvider {...eva} theme={eva.light}>
-      <ProductsList />
+      <Cart />
     </ApplicationProvider>
   </>
 )
